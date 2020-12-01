@@ -16,6 +16,7 @@
     <title>The Wooden Crate</title>
   </head>
   <body>
+      <?php get_header(); ?> 
   <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -29,6 +30,7 @@
             </div>
         </div>
 
+        <?php get_footer(); ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
