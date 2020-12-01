@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-
+        </section>
         <?php get_footer(); ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
