@@ -7,3 +7,17 @@ version: 1.0
 #title {
     background-color: #91A0A5;
 }
+
+.navbar-brand {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+span::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#raincoat-kid {
+    width: 617.13px;
+    height: 1000px;
+}
