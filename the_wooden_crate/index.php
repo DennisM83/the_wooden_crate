@@ -7,7 +7,7 @@
                     <button type="button" class="btn btn-dark">Dark</button>
                 </div>
                 <div class="col-lg-6">
-                    <img id="raincoat-kid" src="images/raincoat_kid_right.png" alt="photo of a child in a raincoat">
+                    <img id="raincoat-kid" src="<?php echo get_theme_file_uri('/images/raincoat_kid_right.png') ?>" alt="photo of a child in a raincoat">
                 </div>
             </div>
         </div>
