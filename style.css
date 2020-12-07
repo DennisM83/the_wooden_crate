@@ -6,19 +6,41 @@ version: 1.0
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #f4f4f4;
 }
 
 #title {
     background-image: linear-gradient(#91a0a5, #748185);
-    padding: 2% 14%;
+    /*padding: 2% 14%;*/
     height: 100vh;
     overflow: hidden;
+    box-shadow: 0 10px 30px #212121;
 }
 
-.navbar-brand {
-    color: #f4f4f4 !important;
+.navbar {
+    padding-bottom: 2.5rem;
+}
+
+.navbar .navbar-brand {
+    color: #f4f4f4;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 2.5rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #f4f4f4;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #212121;
+}
+
+.navbar-toggler .navbar-toggler-icon::after {
+    color: #f4f4f4;
+}
+
+.display-1 {
+    padding-bottom: 5%;
 }
 
 span::after{
@@ -38,4 +60,9 @@ span::after{
 #raincoat-kid {
     width: 617.13px;
     height: 1000px;
+}
+
+.footer {
+    color: #212121;
+    padding: 4% 14%;
 }
