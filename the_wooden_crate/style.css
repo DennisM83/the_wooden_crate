@@ -39,6 +39,10 @@ body {
     color: #f4f4f4;
 }
 
+.smaller-brand {
+    display: none;
+}
+
 .display-1 {
     padding-bottom: 5%;
 }
@@ -69,7 +73,7 @@ span::after{
 
 /* Media Queries */
 
-@media (max-width: 575.98px) {
+@media (max-width: 400px) {
     #title {
         padding: 0;
     }
@@ -78,21 +82,33 @@ span::after{
         display: none;
     }
 
-    #raincoat-kid {
-        width: 308.56px;
-        height: 500px;
-        position: absolute;
-        left: -70px;
-        z-index: 0;
+    .smaller-brand {
+        padding: 0;
+        display: block;
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
     }
 
     #main-heading {
         font-size: 3rem;
+        position: relative;
+        z-index: 1;
+        padding-top: 2%;
     }
 
     .btn {
         padding: .25rem .5rem;
         font-size: .5rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    #raincoat-kid {
+        width: 431.99px;
+        height: 700px;
+        position: absolute;
+        right: -100px;
+        z-index: 0;
     }
 }
 
