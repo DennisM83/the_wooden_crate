@@ -11,7 +11,7 @@ body {
 
 #title {
     background-image: linear-gradient(#91a0a5, #748185);
-    /*padding: 2% 14%;*/
+    padding: 2% 14%;
     height: 100vh;
     overflow: hidden;
     box-shadow: 0 10px 30px #212121;
@@ -66,3 +66,13 @@ span::after{
     color: #212121;
     padding: 4% 14%;
 }
+
+/* Media Queries */
+
+@media (max-width: 575.98px) {
+    #raincoat-kid {
+        width: 185.14px;
+        height: 300px;
+    }
+}
+
