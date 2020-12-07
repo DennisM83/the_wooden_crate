@@ -39,6 +39,10 @@ body {
     color: #f4f4f4;
 }
 
+.smaller-brand {
+    display: none;
+}
+
 .display-1 {
     padding-bottom: 5%;
 }
@@ -69,10 +73,49 @@ span::after{
 
 /* Media Queries */
 
-@media (max-width: 575.98px) {
+@media (max-width: 400px) {
+    #title {
+        padding: 0;
+        box-shadow: 0 5px 20px #212121;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .smaller-brand {
+        padding: 0;
+        display: block;
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
+    }
+
+    #main-heading {
+        font-size: 3rem;
+        position: relative;
+        z-index: 1;
+        padding-top: 2%;
+        font-weight: bold;
+    }
+
+    .btn {
+        padding: .25rem .5rem;
+        font-size: .5rem;
+        position: relative;
+        z-index: 1;
+    }
+
     #raincoat-kid {
-        width: 185.14px;
-        height: 300px;
+        width: 431.99px;
+        height: 700px;
+        position: absolute;
+        right: -100px;
+        z-index: 0;
+    }
+
+    .footer {
+        color: #212121;
+        padding: 10% 10%;
     }
 }
 
