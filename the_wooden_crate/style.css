@@ -20,6 +20,15 @@ span::after{
     white-space: pre;
 }
 
+.btn:hover {
+    background-color: #E1A231;
+    color: #212629;
+}
+
+.btn {
+    border-color: #f4f4f4;
+}
+
 #raincoat-kid {
     width: 617.13px;
     height: 1000px;
