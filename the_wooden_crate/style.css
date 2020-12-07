@@ -94,6 +94,7 @@ span::after{
         position: relative;
         z-index: 1;
         padding-top: 2%;
+        font-weight: bold;
     }
 
     .btn {
