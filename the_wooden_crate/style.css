@@ -109,7 +109,7 @@ span::after{
         width: 431.99px;
         height: 700px;
         position: absolute;
-        right: -100px;
+        right: -200px;
         z-index: 0;
     }
 
@@ -121,7 +121,7 @@ span::after{
     
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 401px){
     #title {
         padding: 0;
         box-shadow: 0 5px 20px #212121;
@@ -154,10 +154,10 @@ span::after{
     }
 
     #raincoat-kid {
-        width: 431.99px;
-        height: 700px;
+        /*width: 493.70px;
+        height: 800px;*/
         position: absolute;
-        right: -100px;
+        right: -140px;
         z-index: 0;
     }
 
