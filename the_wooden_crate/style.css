@@ -109,7 +109,7 @@ span::after{
         width: 431.99px;
         height: 700px;
         position: absolute;
-        right: -200px;
+        right: -100px;
         z-index: 0;
     }
 
@@ -153,9 +153,13 @@ span::after{
         z-index: 1;
     }
 
+    .play {
+        background-color: #E1A231;
+    }
+
     #raincoat-kid {
-        /*width: 493.70px;
-        height: 800px;*/
+        width: 554.52px;
+        height: 900px;
         position: absolute;
         right: -140px;
         z-index: 0;
