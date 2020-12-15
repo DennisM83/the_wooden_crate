@@ -1,6 +1,6 @@
 /*
 Theme Name: The Wooden Crate
-Author: Dennis Wenrich
+Author: DenMWen
 version: 1.0
 */
 
@@ -64,9 +64,15 @@ span::after{
     border-color: #f4f4f4;
 }
 
-#raincoat-kid {
+/*#raincoat-kid {
     width: 617.13px;
     height: 1000px;
+}*/
+
+#raincoat-kid {
+    width: 881.61px;
+    height: 1428.57px;
+    
 }
 
 /* TITLE SECTION END  */
