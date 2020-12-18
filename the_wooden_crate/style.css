@@ -72,7 +72,9 @@ span::after{
 #raincoat-kid {
     width: 881.61px;
     height: 1428.57px;
-    
+    position: absolute;
+    right: -250px;
+
 }
 
 /* TITLE SECTION END  */
