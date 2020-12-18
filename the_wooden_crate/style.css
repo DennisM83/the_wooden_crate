@@ -46,10 +46,11 @@ body {
     display: none;
 }
 
-.display-1 {
+#main-heading {
     padding-bottom: 5%;
     position: relative;
     z-index: 1;
+    font-weight: bold;
 }
 
 span::after{
