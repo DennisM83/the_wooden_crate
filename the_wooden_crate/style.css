@@ -151,7 +151,7 @@ span::after{
         width: 431.99px;
         height: 700px;
         position: absolute;
-        right: -200px;
+        right: -150px;
         z-index: 0;
     }
 
@@ -277,6 +277,10 @@ span::after{
         padding-top: 2%;
     }
 
+    .btn {
+        margin-bottom: 14%;
+    }
+
     #raincoat-kid {
         width: 554.52px;
         height: 900px;
@@ -329,6 +333,26 @@ span::after{
         position: absolute;
         right: -100px;
         z-index: 0;
+    }
+
+    /* TITLE SECTION END  */
+
+    .footer {
+        color: #212121;
+        padding: 10% 10%;
+    }
+}
+
+@media screen and (max-height: 1200px) {
+
+    /* TITLE SECTION */
+
+    #raincoat-kid {
+        width: 881.61px;
+    height: 1428.57px;
+    position: absolute;
+    right: -250px;
+    z-index: 0;
     }
 
     /* TITLE SECTION END  */
