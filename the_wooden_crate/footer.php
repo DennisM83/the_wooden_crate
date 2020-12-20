@@ -1,4 +1,8 @@
-    <p>This is the footer.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
