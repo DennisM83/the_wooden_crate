@@ -29,7 +29,7 @@
                     }               
                   ?>-->
                   <li class='nav-item'>
-                    <a href='#' class='nav-link'>About</a>
+                    <a href='<?php echo site_url('/about-us')?>' class='nav-link'>About</a>
                   </li>
                   <li class='nav-item'>
                     <a href='#' class='nav-link'>Pricing</a>
