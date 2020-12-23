@@ -1,6 +1,6 @@
     <div class="container-fluid">
         <div class="row">
-            <a href="#">Privacy Policy</a>
+            <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
         </div>
     </div>
 
