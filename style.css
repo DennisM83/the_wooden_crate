@@ -1,6 +1,6 @@
 /*
 Theme Name: The Wooden Crate
-Author: Dennis Wenrich
+Author: DenMWen
 version: 1.0
 */
 
@@ -46,8 +46,11 @@ body {
     display: none;
 }
 
-.display-1 {
+#main-heading {
     padding-bottom: 5%;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
 }
 
 span::after{
@@ -62,11 +65,17 @@ span::after{
 
 .btn {
     border-color: #f4f4f4;
+    position: relative;
+    z-index: 1;
 }
 
 #raincoat-kid {
-    width: 617.13px;
-    height: 1000px;
+    width: 881.61px;
+    height: 1428.57px;
+    position: absolute;
+    right: -250px;
+    z-index: 0;
+
 }
 
 /* TITLE SECTION END  */
@@ -74,21 +83,8 @@ span::after{
 /* PAGE SECTION */
 
 #page {
-    background: #fff;
-    overflow: hidden;
-  
-    transition: all .5s ease-in-out;
-    line-height: 0;
-    padding: 0 1em;
-    color: transparent;
-  }
-
-  #page:target {
-    line-height: 1.5;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: #212121;
-  }
+    padding: 8% 14%;
+}
   
 /* PAGE SECTION END */
 
@@ -126,21 +122,18 @@ span::after{
         position: relative;
         z-index: 1;
         padding-top: 2%;
-        font-weight: bold;
     }
 
     .btn {
         padding: .25rem .5rem;
         font-size: .5rem;
-        position: relative;
-        z-index: 1;
     }
 
     #raincoat-kid {
         width: 431.99px;
         height: 700px;
         position: absolute;
-        right: -200px;
+        right: -150px;
         z-index: 0;
     }
 
@@ -176,17 +169,12 @@ span::after{
 
     #main-heading {
         font-size: 3rem;
-        position: relative;
-        z-index: 1;
         padding-top: 2%;
-        font-weight: bold;
     }
 
     .btn {
         padding: .25rem .5rem;
         font-size: .5rem;
-        position: relative;
-        z-index: 1;
     }
 
     #raincoat-kid {
@@ -229,17 +217,12 @@ span::after{
 
     #main-heading {
         font-size: 3rem;
-        position: relative;
-        z-index: 1;
         padding-top: 2%;
-        font-weight: bold;
     }
 
     .btn {
         padding: .25rem .5rem;
         font-size: .5rem;
-        position: relative;
-        z-index: 1;
     }
 
     .play {
@@ -272,22 +255,12 @@ span::after{
     }
 
     #main-heading {
-        font-size: 3.5rem;
-        position: relative;
-        z-index: 1;
+        /*font-size: 3.5rem;*/
         padding-top: 2%;
-        font-weight: bold;
     }
 
     .btn {
-        padding: .25rem .5rem;
-        font-size: .5rem;
-        position: relative;
-        z-index: 1;
-    }
-
-    .play {
-        background-color: #E1A231;
+        margin-bottom: 14%;
     }
 
     #raincoat-kid {
@@ -306,7 +279,7 @@ span::after{
     }
 }
 
-@media screen and (max-height: 460px) {
+@media screen and (max-height: 550px) {
 
     /* TITLE SECTION */
 
@@ -328,17 +301,12 @@ span::after{
 
     #main-heading {
         font-size: 2rem;
-        position: relative;
-        z-index: 1;
         padding-top: 2%;
-        font-weight: bold;
     }
 
     .btn {
         padding: .25rem .5rem;
         font-size: .5rem;
-        position: relative;
-        z-index: 1;
     }
 
     #raincoat-kid {
@@ -347,6 +315,26 @@ span::after{
         position: absolute;
         right: -100px;
         z-index: 0;
+    }
+
+    /* TITLE SECTION END  */
+
+    .footer {
+        color: #212121;
+        padding: 10% 10%;
+    }
+}
+
+@media screen and (min-height: 850px) and (max-height: 1200px) {
+
+    /* TITLE SECTION */
+
+    #raincoat-kid {
+        width: 881.61px;
+    height: 1428.57px;
+    position: absolute;
+    right: -250px;
+    z-index: 0;
     }
 
     /* TITLE SECTION END  */
