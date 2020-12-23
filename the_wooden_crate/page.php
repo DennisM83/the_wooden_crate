@@ -1,6 +1,6 @@
     <?php get_header(); ?>
     <span class="smaller-brand">The Wooden Crate</span>
-    </section> 
+    </section>
     <section id="page">
       <div class="container-fluid">
         <div class="row">
@@ -21,4 +21,6 @@
         </div>
       </div>
     </section>
-    <?php get_footer(); ?>
+    <div class="footer">
+      <?php get_footer(); ?>
+    </div>
