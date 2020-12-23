@@ -69,11 +69,6 @@ span::after{
     z-index: 1;
 }
 
-/*#raincoat-kid {
-    width: 617.13px;
-    height: 1000px;
-}*/
-
 #raincoat-kid {
     width: 881.61px;
     height: 1428.57px;
@@ -86,23 +81,6 @@ span::after{
 /* TITLE SECTION END  */
 
 /* PAGE SECTION */
-
-#page {
-    background: #fff;
-    overflow: hidden;
-  
-    transition: all .5s ease-in-out;
-    line-height: 0;
-    padding: 0 1em;
-    color: transparent;
-  }
-
-  #page:target {
-    line-height: 1.5;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: #212121;
-  }
   
 /* PAGE SECTION END */
 
