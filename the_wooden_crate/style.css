@@ -81,6 +81,10 @@ span::after{
 /* TITLE SECTION END  */
 
 /* PAGE SECTION */
+
+#page {
+    padding: 10% 14%;
+}
   
 /* PAGE SECTION END */
 
