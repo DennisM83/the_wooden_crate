@@ -95,6 +95,11 @@ span::after{
     padding: 4% 14%;
 }
 
+.footer-btn {
+    border: none;
+    background-color: #FFFFFF;
+}
+
 /* FOOTER SECTION */
 
 /* Media Queries */
