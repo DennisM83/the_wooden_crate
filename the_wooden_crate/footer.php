@@ -1,6 +1,6 @@
     <div class="container-fluid">
         <div class="row">
-            <button class="footer-btn">The Wooden Crate</button>
+            <button class="btn footer-btn">The Wooden Crate</button>
             <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
         </div>
     </div>
