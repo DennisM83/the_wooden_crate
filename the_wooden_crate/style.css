@@ -4,6 +4,10 @@ Author: DenMWen
 version: 1.0
 */
 
+:root {
+    --title-font: 'Cedarville Cursive', cursive;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #212121;
@@ -27,7 +31,7 @@ body {
 
 .navbar .navbar-brand {
     color: #f4f4f4;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: var(--title-font);
     font-size: 2.5rem;
 }
 
