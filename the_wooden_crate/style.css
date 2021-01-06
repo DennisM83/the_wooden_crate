@@ -12,7 +12,7 @@ version: 1.0
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #212121;
+    color: var(--default-dark);
     background-color: var(--default-light);
 }
 
@@ -24,7 +24,7 @@ body {
     padding: 2% 14%;
     height: 100vh;
     overflow: hidden;
-    box-shadow: 0 10px 30px #212121;
+    box-shadow: 0 10px 30px var(--default-dark);
 }
 
 .navbar {
@@ -42,7 +42,7 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link:hover{
-    color: #212121;
+    color: var(--default-dark);
 }
 
 .navbar-toggler .navbar-toggler-icon::after {
@@ -98,7 +98,7 @@ span::after{
 /* FOOTER SECTION */
 
 .footer {
-    color: #212121;
+    color: var(--default-dark);
     padding: 4% 14%;
 }
 
@@ -117,7 +117,7 @@ span::after{
 
     #title {
         padding: 0;
-        box-shadow: 0 5px 20px #212121;
+        box-shadow: 0 5px 20px var(--default-dark);
     }
 
     .navbar-brand {
@@ -156,7 +156,7 @@ span::after{
     /* TITLE SECTION END */
 
     .footer {
-        color: #212121;
+        color: var(--default-dark);
         padding: 10% 10%;
     }
     
@@ -169,7 +169,7 @@ span::after{
 
     #title {
         padding: 0;
-        box-shadow: 0 5px 20px #212121;
+        box-shadow: 0 5px 20px var(--default-dark);
     }
 
     .navbar-brand {
@@ -204,7 +204,7 @@ span::after{
     /* TITLE SECTION END */
 
     .footer {
-        color: #212121;
+        color: var(--default-dark);
         padding: 10% 10%;
     }
     
@@ -217,7 +217,7 @@ span::after{
 
     #title {
         padding: 0;
-        box-shadow: 0 5px 20px #212121;
+        box-shadow: 0 5px 20px var(--default-dark);
     }
 
     .navbar-brand {
@@ -256,7 +256,7 @@ span::after{
     /* TITLE SECTION END  */
 
     .footer {
-        color: #212121;
+        color: var(--default-dark);
         padding: 10% 10%;
     }
 }
@@ -267,7 +267,7 @@ span::after{
 
     #title {
         padding: 0;
-        box-shadow: 0 5px 20px #212121;
+        box-shadow: 0 5px 20px var(--default-dark);
     }
 
     #main-heading {
@@ -290,7 +290,7 @@ span::after{
     /* TITLE SECTION END  */
 
     .footer {
-        color: #212121;
+        color: var(--default-dark);
         padding: 10% 10%;
     }
 }
@@ -301,7 +301,7 @@ span::after{
 
     #title {
         padding: 0 10%;
-        box-shadow: 0 5px 20px #212121;
+        box-shadow: 0 5px 20px var(--default-dark);
     }
 
     .navbar-brand {
@@ -336,7 +336,7 @@ span::after{
     /* TITLE SECTION END  */
 
     .footer {
-        color: #212121;
+        color: var(--default-dark);
         padding: 10% 10%;
     }
 }
@@ -356,7 +356,7 @@ span::after{
     /* TITLE SECTION END  */
 
     .footer {
-        color: #212121;
+        color: var(--default-dark);
         padding: 10% 10%;
     }
 }
