@@ -78,7 +78,7 @@ span::after{
 }
 
 .dwnload-btn {
-    box-shadow: 0 4px 10px #fff inset, 0 -5px 10px #000 inset;
+    box-shadow: 0 5px 14px #000, 0 -3px 10px #fff;
 }
 
 #raincoat-kid {
