@@ -1,7 +1,14 @@
     <div class="container-fluid">
         <div class="row">
-            <button class="btn footer-btn">The Wooden Crate</button>
-            <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
+            <div class="col-4">
+                <button class="btn footer-btn">The Wooden Crate</button>
+            </div>
+            <div class="col-4">
+                <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
+                <a href="">Legal</a>
+                <a href="">Contact Us</a>
+            </div>
+
         </div>
     </div>
 
