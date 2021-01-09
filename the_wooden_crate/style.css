@@ -25,6 +25,7 @@ body {
     height: 100vh;
     overflow: hidden;
     box-shadow: 0 10px 30px var(--default-dark);
+    border-radius: 25px;
 }
 
 .navbar {
@@ -78,7 +79,7 @@ span::after{
 }
 
 .dwnload-btn {
-    box-shadow: 0 5px 14px #000, 0 -3px 10px #fff;
+    box-shadow: 0 5px 14px #000, 0 -3px 12px #fff;
 }
 
 #raincoat-kid {
