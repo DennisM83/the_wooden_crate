@@ -110,7 +110,7 @@ span::after{
 
 .footer-btn {
     border: none;
-    box-shadow: 0 1px 1px #fff inset, 0 -1px 1px #000 inset;
+    box-shadow: 0 5px 14px #000, 0 -3px 12px #fff;
 }
 
 /* FOOTER SECTION */
