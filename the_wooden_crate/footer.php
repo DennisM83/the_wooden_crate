@@ -8,10 +8,10 @@
                 <a href="">Legal</a>
                 <a href="">Contact Us</a>
             </div>
-            <div class="col-4">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
+            <div class="social-icons col-4">
+                <i class="fab fa-3x fa-facebook-square"></i>
+                <i class="fab fa-3x fa-twitter"></i>
+                <i class="fab fa-3x fa-instagram"></i>
             </div>
         </div>
     </div>
