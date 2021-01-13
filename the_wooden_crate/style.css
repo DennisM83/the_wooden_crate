@@ -24,7 +24,7 @@ body {
     padding: 2% 14%;
     height: 100vh;
     overflow: hidden;
-    box-shadow: 0 10px 30px var(--default-dark);
+    box-shadow: 5px 5px 15px #2f3435;
     border-radius: 0 0 25px 25px;
 }
 
@@ -79,7 +79,9 @@ span::after{
 }
 
 .dwnload-btn {
-    box-shadow: 0 5px 14px #000, 0 -3px 12px #fff;
+    box-shadow: 5px 5px 10px #303537,
+    -5px -5px 10px #bed5db;
+    margin: 15px;
 }
 
 #raincoat-kid {
@@ -110,7 +112,8 @@ span::after{
 
 .footer-btn {
     border: none;
-    box-shadow: 0 5px 14px #000, 0 -3px 12px #fff;
+    box-shadow: 5px 5px 10px #646464,
+    -5px -5px 10px #ffffff;
 }
 
 .fa-facebook-square, .fa-twitter, .fa-instagram {
