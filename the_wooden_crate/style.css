@@ -79,8 +79,8 @@ span::after{
 }
 
 .dwnload-btn {
-    box-shadow: 5px 5px 10px #303537,
-    -5px -5px 10px #bed5db;
+    box-shadow: 5px 5px 6px #586164,
+    -5px -5px 6px #92a1a6;
     margin-right: 15px;
 }
 
@@ -112,8 +112,8 @@ span::after{
 
 .footer-btn {
     border: none;
-    box-shadow: 5px 5px 10px #646464,
-    -5px -5px 10px #ffffff;
+    box-shadow: 5px 5px 6px #bcbcbc,
+    -5px -5px 6px #ffffff;
 }
 
 .fa-facebook-square, .fa-twitter, .fa-instagram {
