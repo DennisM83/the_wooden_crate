@@ -1,14 +1,14 @@
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-4">
+        <div class="row row-cols-1 row-cols-xl-3">
+            <div class="col d-flex justify-content-center">
                 <button class="btn footer-btn">The Wooden Crate</button>
             </div>
-            <div class="col-4">
+            <div class="col d-flex justify-content-center">
                 <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
                 <a href="">Legal</a>
                 <a href="">Contact Us</a>
             </div>
-            <div class="social-icons col-4">
+            <div class="social-icons col d-flex justify-content-center">
                 <i class="fab fa-3x fa-facebook-square"></i>
                 <i class="fab fa-3x fa-twitter"></i>
                 <i class="fab fa-3x fa-instagram"></i>
