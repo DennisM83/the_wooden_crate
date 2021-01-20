@@ -8,7 +8,7 @@
                 <a href="">Legal</a>
                 <a href="">Contact Us</a>
             </div>
-            <div class="social-icons col d-flex justify-content-center">
+            <div class="social-icons col">
                 <i class="fab fa-3x fa-facebook-square"></i>
                 <i class="fab fa-3x fa-twitter"></i>
                 <i class="fab fa-3x fa-instagram"></i>
