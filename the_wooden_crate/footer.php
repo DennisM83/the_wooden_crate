@@ -4,9 +4,11 @@
                 <button class="btn footer-btn">The Wooden Crate</button>
             </div>
             <div class="col d-flex justify-content-center">
-                <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
-                <a href="">Legal</a>
-                <a href="">Contact Us</a>
+                <ul>
+                    <li><a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a></li>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
             </div>
             <div class="social-icons col d-flex justify-content-center">
                 <i class="fab fa-3x fa-facebook-square"></i>
