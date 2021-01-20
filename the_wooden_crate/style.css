@@ -116,8 +116,13 @@ span::after{
     -5px -5px 6px #ffffff;
 }
 
+.footer-links {
+    list-style: none;
+}
+
 .fa-facebook-square, .fa-twitter, .fa-instagram {
     color: #91a0a5;
+    margin: 8%;
 }
 
 /* FOOTER SECTION END*/
