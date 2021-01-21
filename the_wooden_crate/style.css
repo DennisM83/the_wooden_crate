@@ -118,15 +118,17 @@ span::after{
 
 .footer-links {
     list-style: none;
+    padding-right: 20px; 
 }
 
 .footer-list-items {
-    display: inline-block;
+    display: inline;
+    padding-right: 10px;
 }
 
 .fa-facebook-square, .fa-twitter, .fa-instagram {
     color: #91a0a5;
-    margin: 14%;
+    margin: 0 14% 0 14%;
 }
 
 /* FOOTER SECTION END*/
