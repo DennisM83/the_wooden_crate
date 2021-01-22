@@ -1,9 +1,9 @@
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-xl-3">
             <div class="col d-flex justify-content-center align-items-center">
-                <button class="btn footer-btn">The Wooden Crate</button>
+                <a href="<?php echo site_url() ?>" class="btn footer-btn">The Wooden Crate</a>
             </div>
-            <div class="col d-flex justify-content-center align-items-center">
+            <div class="footer-links col d-flex justify-content-center align-items-center">
                 <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
                 <a href="">Legal</a>
                 <a href="">Contact Us</a>
