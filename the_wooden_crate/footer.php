@@ -5,7 +5,7 @@
             </div>
             <div class="footer-links col d-flex justify-content-center align-items-center">
                 <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
-                <a href="">Legal</a>
+                <a href="<?php echo site_url('/legal') ?>">Legal</a>
                 <a href="">Contact Us</a>
             </div>
             <div class="social-icons col d-flex justify-content-center align-items-center">
