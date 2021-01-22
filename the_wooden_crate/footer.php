@@ -4,11 +4,6 @@
                 <button class="btn footer-btn">The Wooden Crate</button>
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-                <!--<ul class="footer-links">
-                    <li class="footer-list-items"><a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a></li>
-                    <li class="footer-list-items"><a href="">Legal</a></li>
-                    <li class="footer-list-items"><a href="">Contact Us</a></li>
-                </ul>-->
                 <a href="<?php echo site_url('/privacy-policy') ?>">Privacy Policy</a>
                 <a href="">Legal</a>
                 <a href="">Contact Us</a>
