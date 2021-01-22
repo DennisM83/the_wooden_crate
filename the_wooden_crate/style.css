@@ -119,6 +119,11 @@ span::after{
 
 .footer-links > a{
      padding-right: 25px;
+     color: var(--main-theme-color);
+}
+
+.footer-links > a:hover{
+    color: var(--default-dark);
 }
 
 .fa-facebook-square, .fa-twitter, .fa-instagram {
