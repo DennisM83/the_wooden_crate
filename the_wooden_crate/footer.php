@@ -9,9 +9,9 @@
                 <a href="">Contact Us</a>
             </div>
             <div class="social-icons col d-flex justify-content-center align-items-center">
-                <i class="fab fa-3x fa-facebook-square"></i>
-                <i class="fab fa-3x fa-twitter"></i>
-                <i class="fab fa-3x fa-instagram"></i>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-3x fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-3x fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-3x fa-instagram"></i></a>
             </div>
         </div>
     </div>
